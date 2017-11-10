@@ -26,6 +26,15 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/test", (req, res) => {
+  res.send( {
+    title: 'test',
+    content:'test content'
+  });
+});
+
 app.listen(port, () => {
   console.log(`Server is up at ${port}`);
 });
+
+module.exports.app = app;
