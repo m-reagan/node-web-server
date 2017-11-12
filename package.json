@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha **/*.test.js",
     "start": "node server.js",
-    "test-watch":"nodemon --exec \"npm test\""
+    "test-watch": "nodemon --exec \"npm test\""
   },
   "author": "Reagan",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "hbs": "^4.0.1"
   },
   "devDependencies": {
+    "expect": "^1.20.2",
     "mocha": "^4.0.1",
     "supertest": "^3.0.0"
   }
